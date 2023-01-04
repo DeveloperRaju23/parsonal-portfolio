@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+.btn-color{
+    color: #FD6E0A;
+}
+/* PORTFOLIO CSS START   */
+.logo{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    padding: 50px 0;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #474747;
+}
+
+.btn{
+    height: 64px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+   box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.25));
+   font-size: 20px;
+   font-weight: 700;
+   border: 0;
+   padding:18px 35px;
+
+}
+
+/* Banner Design Css  */
+.banner{
+    display:flex;
+    margin: 0px 200px;
+    align-items: center;
+}
+
+.banner-sub-title{
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+
+}
+
+.banner-desc{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+}
+
+.btn1{
+    height: 64px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+   box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.25));
+   font-size: 20px;
+   font-weight: 700;
+   border: 0;
+   padding:18px 35px;
+   margin-right: 20px;
+}
+
+.btn2{
+    height: 64px;
+    background-color:transparent;
+    border-radius: 5px;
+    color: #FD6E0A;
+   box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.25));
+   font-size: 20px;
+   font-weight: 700;
+   border: 0;
+   padding:18px 35px;
+   margin-right: 20px;
+   border: 1px solid #FD6E0A;
+}
+
+
+/* About Section Css Design  */
+main{
+    max-width: 1140px;
+    height: 550px;
+    margin: 0 auto;
+
+}
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    padding: 131px 157px;
+    border-radius: 5px;
+    text-align: center;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+.section-decs{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.info-desc{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
