@@ -31,6 +31,7 @@ nav ul li{
     font-size: 20px;
     font-weight: 400;
     color: #474747;
+    cursor: pointer;
 }
 
 .btn{
@@ -43,6 +44,7 @@ nav ul li{
    font-weight: 700;
    border: 0;
    padding:18px 35px;
+   cursor: pointer;
 
 }
 
@@ -132,11 +134,13 @@ main{
     font-size: 18px;
     margin-bottom: 30px;
     text-align: center;
+    line-height: 30px;
 }
 
 .about-info-container{
     display: flex;
     justify-content: space-around;
+    
 }
 
 .info-title{
@@ -149,4 +153,145 @@ main{
     font-size: 20px;
     font-weight: 700;
     color: #474747;
+
+}
+
+/* What i do section css  */
+.what-i-do{
+    margin-top: 130px;
+}
+
+.what-i-do .section-decs2{
+    padding-bottom: 50px;
+    text-align: center;
+    margin: 0px 135px;
+    color: #757575;
+    line-height: 30px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.skill-desc{
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+ /* A summary of My Resume Section css */
+.resume{
+    margin-top: 130px;
+
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+    padding-top: 50px;
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume .desce{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn3{
+    height: 64px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+   box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.25));
+   font-size: 20px;
+   font-weight: 700;
+   border: 0;
+   padding:18px 35px;
+   margin-right: 20px;
+}
+.semary-btn{
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+/* Contact Section Css  */
+.contact-section{
+    display: flex;
+    margin-top: 113px;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 100px 130px;
+}
+.contact-section .section-title{
+    text-align: left;
+}
+
+.contact-section .section-title{
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+   
+}
+
+.contact-section input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border:0;
+    width:100%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 18px 30px;
+    outline: none;
+}
+
+input{
+    height:55px;
+}
+
+.contact-desc{
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.contact-section a{
+    text-decoration: none;
+    margin: 10px 5px;
+}
+
+footer{
+    background-color: #757575;
+    text-align: center;
+    color: #FFF8F3;
+    padding: 20px 0;
 }
